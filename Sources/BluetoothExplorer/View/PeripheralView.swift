@@ -120,7 +120,7 @@ extension PeripheralView {
             switch self {
             case let .service(group):
                 return group.characteristics.map { .characteristic($0) }
-            case let .characteristic(group):
+            case .characteristic:
                 return nil
             }
         }
