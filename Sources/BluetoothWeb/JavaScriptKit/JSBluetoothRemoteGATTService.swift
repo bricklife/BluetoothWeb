@@ -14,7 +14,7 @@ import JavaScriptKit
  */
 public final class JSBluetoothRemoteGATTService: JSBridgedClass {
     
-    public static let constructor = JSObject.global.BluetoothRemoteGattService.function!
+    public static let constructor = JSObject.global.BluetoothRemoteGattService.function
     
     // MARK: - Properties
     

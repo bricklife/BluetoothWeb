@@ -15,7 +15,7 @@ import JavaScriptKit
  */
 public final class JSBluetoothRemoteGATTCharacteristic: JSBridgedClass {
     
-    public static let constructor = JSObject.global.BluetoothRemoteGATTCharacteristic.function!
+    public static let constructor = JSObject.global.BluetoothRemoteGATTCharacteristic.function
     
     // MARK: - Properties
     

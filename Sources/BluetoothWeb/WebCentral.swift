@@ -407,7 +407,7 @@ extension BluetoothUUID: ConvertibleToJSValue {
      
      It must be a valid UUID alias (e.g. 0x1234), UUID (lowercase hex characters e.g. '00001234-0000-1000-8000-00805f9b34fb'), or recognized standard name from https://www.bluetooth.com/specifications/gatt/services e.g. 'alert_notification'.
      */
-    public func jsValue() -> JSValue {
+    public var jsValue: JSValue {
         switch self {
         case let .bit16(value):
             return .number(Double(value))
